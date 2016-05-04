@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+
+<body>
+	<h1>Hello App React</h1>
+	<div id="containerId"></div>
+	<script src="js/libs/react.min.js"></script>
+	<script src="js/libs/react-dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+	<script type="text/babel">
+	class LikeBtn extends React.Component
+	{
+		getInitialState(){
+			console.log("----")
+			return {
+				liked:false,
+			}
+		}
+		constructor(){
+			super();
+			
+			console.log("===122")
+			this.getInitialState();
+			
+			console.log(this.state)
+		}
+		render(){
+			var text = this.state.liked?"likded":"not liked";
+			return (
+				<h3>{text}</h3>
+			)
+		}
+	}
+	ReactDOM.render(
+		<LikeBtn />,
+		document.getElementById("containerId")
+	)
+	</script>
+	
+</body>
+</html>

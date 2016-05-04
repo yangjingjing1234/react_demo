@@ -1,0 +1,36 @@
+{
+  "name": "react_router_redux_demo",
+  "version": "1.0.0",
+  "description": "react demo，通包括可以学习react-router，redux，nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "redux": "^3.5.2"
+  },
+  "scripts": {
+    "dataserver": "node ./server/shop.js",
+    "webserver": "node ./server/webserver.js"
+  },
+  "author": "marylin meng",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "react-router",
+    "redux",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menglingbujie/react_demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/menglingbujie/react_demo/issues"
+  },
+  "homepage": "https://github.com/menglingbujie/react_demo#readme"
+}
