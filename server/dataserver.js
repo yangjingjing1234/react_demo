@@ -13,7 +13,7 @@ function start(route,handle){
 
 	}
 	http.createServer(onReq).listen(8123);
-	console.log("Start Data Server....");
+	console.log("Start Data Server https://localhost:8123....");
 }
 
 exports.start = start;

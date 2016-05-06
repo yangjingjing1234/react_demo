@@ -14,7 +14,7 @@
     "redux": "^3.5.2"
   },
   "scripts": {
-    "dataserver": "node ./server/shop.js",
+    "dataserver": "node ./server/datafactory.js",
     "webserver": "node ./server/webserver.js"
   },
   "author": "marylin meng",

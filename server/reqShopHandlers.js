@@ -55,11 +55,11 @@ function join(){
 			"joblist":[
 			{
 				"title":"javascript",
-				"content":"Dom, render"	
+				"content":"Dom, render"
 			},
 			{
 				"title":"C++",
-				"content":"Vector,Map"	
+				"content":"Vector,Map"
 			}
 			]
 			},
@@ -68,11 +68,11 @@ function join(){
 			"joblist":[
 			{
 				"title":"HR",
-				"content":"交流, 阅读"	
+				"content":"交流, 阅读"
 			},
 			{
 				"title":"前台",
-				"content":"Beauty,girl"	
+				"content":"Beauty,girl"
 			}
 			]
 			}
